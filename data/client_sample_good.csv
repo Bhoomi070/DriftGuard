@@ -1,0 +1,6 @@
+customer_id,full_name,email,signup_date,account_balance,tier,status
+CUST-1001,Apex Logistics Ltd,ops@apexlogistics.com,2025-01-15,14250.75,enterprise,active
+CUST-1002,Beacon Dynamics,finance@beacondyn.io,2025-02-01,3840.00,premium,active
+CUST-1003,Cascade Health Systems,billing@cascadehealth.org,2025-02-18,92000.50,enterprise,active
+CUST-1004,Delta Ventures,contact@deltav.co,2025-03-05,1200.25,standard,active
+CUST-1005,Echo BioLabs,accounting@echobio.com,2025-03-22,6540.00,premium,suspended

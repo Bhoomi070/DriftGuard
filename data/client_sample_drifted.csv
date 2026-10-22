@@ -1,0 +1,6 @@
+cust_id,client_name,email_address,registered_on,balance_usd,membership_level
+ACME-901,Vortex AI Labs,contact@vortexlabs.ai,14-04-2025,"$24,500.00",enterprise
+ACME-902,Zenith Robotics,team@zenithrobotics.com,28-04-2025,"$8,120.50",premium
+ACME-903,Horizon Energy Inc,accounts@horizonenergy.net,05-05-2025,"$115,000.00",enterprise
+ACME-904,Solaria Cloud Services,admin@solariacloud.io,19-05-2025,"$450.00",standard
+ACME-905,Pinnacle Retail Corp,invoices@pinnacleretail.com,02-06-2025,"$12,890.75",premium

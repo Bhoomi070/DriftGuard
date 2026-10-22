@@ -1,0 +1,60 @@
+{
+  "name": "CustomerAccountIngestionContract",
+  "version": "1.0.0",
+  "description": "Standard production contract for incoming enterprise customer records",
+  "fields": [
+    {
+      "name": "customer_id",
+      "data_type": "string",
+      "required": true,
+      "description": "Unique alphanumeric customer identifier",
+      "synonyms": ["cust_id", "client_id", "customer_number", "account_id", "cust_no", "user_id"]
+    },
+    {
+      "name": "full_name",
+      "data_type": "string",
+      "required": true,
+      "description": "Customer full legal or business name",
+      "synonyms": ["client_name", "customer_name", "name", "contact_name", "account_name"]
+    },
+    {
+      "name": "email",
+      "data_type": "string",
+      "required": true,
+      "description": "Primary contact email address",
+      "synonyms": ["email_address", "client_email", "contact_email", "mail"]
+    },
+    {
+      "name": "signup_date",
+      "data_type": "date",
+      "required": true,
+      "description": "Date customer registered, expected YYYY-MM-DD",
+      "synonyms": ["registered_on", "registration_date", "created_at", "onboarding_date", "join_date"]
+    },
+    {
+      "name": "account_balance",
+      "data_type": "float",
+      "required": true,
+      "description": "Current balance in USD",
+      "synonyms": ["balance_usd", "balance", "current_balance", "account_val", "balance_amount"]
+    },
+    {
+      "name": "tier",
+      "data_type": "string",
+      "required": false,
+      "default": "standard",
+      "allowed_values": ["standard", "premium", "enterprise"],
+      "description": "Customer subscription tier",
+      "synonyms": ["membership_tier", "subscription_tier", "tier_level", "plan", "membership_level"]
+    },
+    {
+      "name": "status",
+      "data_type": "string",
+      "required": false,
+      "default": "active",
+      "allowed_values": ["active", "inactive", "suspended"],
+      "description": "Account operating status",
+      "synonyms": ["account_status", "state", "user_status"]
+    }
+  ]
+}
